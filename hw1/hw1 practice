@@ -1,0 +1,7 @@
+  View(X201801_data)
+> length(grep("柯文哲", X201801_data$Page_Name)) 
+[1] 45
+  View(X201809_data)
+> length(grep("陳其邁", X201809_data$Page_Name)) 
+[1] 66
+> 
